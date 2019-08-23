@@ -1,1 +1,13 @@
-mdsg
+#ContentMain {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+#navbar {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.navitem {
+  font-family: 
+}
