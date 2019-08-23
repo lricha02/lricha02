@@ -1,6 +1,7 @@
 #ContentMain {
   display: grid;
   grid-template-columns: 50% 50%;
+  
 }
 
 #navbar {
@@ -9,5 +10,5 @@
 }
 
 .navitem {
-  font-family: 
+  font-family: 'Livvic', sans-serif;
 }
