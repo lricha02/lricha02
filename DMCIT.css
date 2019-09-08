@@ -102,6 +102,23 @@ h4 {
   font-family: 'Livvic';
 }
 
+#DrinkGrid {
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  grid-template-rows: 15% 15%;
+}
+
+.DrinkGridItem {
+  background-color: #fae3d9;
+  color: white;
+  padding: 15px 32px;
+  margin: 10px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 25px;
+  font-family: 'Livvic';
+}
+
 h2 {
   font-family: 'Livvic', sans-serif;
   margin-left: 30px;
