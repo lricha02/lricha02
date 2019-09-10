@@ -22,16 +22,22 @@
       <div id='ContentMain'>
         <form action="LoggedIn.php">
           <div class="LogInBill">
-            <img src="PicBill.png" alt="LogoBill">
+            <div>
+              <img class='BillWelcome' src="PicBill.png" alt="LogoBill">
+            </div>
+            <div>
+              <h6><i>Picollo Bill Says:</i></h6>
+              <p>Log In to see your pending orders!</p>
+            </div>
           </div>
-          <div class='LogInForm'>
-            <label for="uname"><b>Username</b></label>
-              <input type="text" placeholder="Enter Username" name="uname" required>
-              <label for="psw"><b>Password</b></label>
-              <input type="password" placeholder="Enter Password" name="psw" required>
-              <button type="submit" class"submitButt">Login</button>
-              <label> <input type="checkbox" checked="checked" name="remember"> Remember me </label>
-          </div>
+        <div class='LogInForm'>
+          <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <button type="submit" class"submitButt">Login</button>
+            <label> <input type="checkbox" checked="checked" name="remember"> Remember me </label>
+        </div>
         </form>
       </div>
     </main>

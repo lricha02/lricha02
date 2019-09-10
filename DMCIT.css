@@ -8,6 +8,28 @@
   padding-right: 5%;
 }
 
+#ContentMainRight {
+  max-width: 100%;
+  max-height: 650px;
+  image-orientation: from-image;
+}
+
+body {
+  background-color: #ffb6b9;
+}
+
+main {
+  background-color: white;
+  border: 10px;
+  border-radius: 25px;
+}
+
+.coffee1 {
+  height: 100%;
+  width: 100%;
+  border-radius: 0% 2% 2% 0%;
+}
+
 #navbar {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
@@ -27,6 +49,8 @@
   font-family: 'Livvic', sans-serif;
   font-size: 30pt;
   background-color: #ffb6b9;
+  padding-left: 25%;
+  padding-top: 10%;
 }
 
 
@@ -67,6 +91,10 @@ a:visited { text-decoration: none; color:black; }
 a:hover { text-decoration: none; color:white; }
 a:focus { text-decoration: none; color:black; }
 a:hover, a:active { text-decoration: none; color:white; }
+
+footer {
+ display: fixed;
+}
 
 #footerNav {
   display: grid;
@@ -130,10 +158,32 @@ h2 {
   font-family: 'Livvic';
 }
 
+.LogInBill {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+h6 {
+  color: darkgrey;
+  font-size: 20pt;
+  font-family: 'Livvic';
+}
+
+p {
+  font-size: 16pt;
+  font-family: 'Livvic';
+}
+
+.BillWelcome {
+  width: 200pt;
+  height: 200pt;
+}
+
 form {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 5%;
 }
 
 .submitButt {
