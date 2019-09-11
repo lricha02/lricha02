@@ -180,6 +180,12 @@ p {
   font-family: 'Livvic';
 }
 
+.here {
+  background-color: lightgrey;
+  border-radius: 5px;
+
+}
+
 .BillWelcome {
   width: 200pt;
   height: 200pt;
