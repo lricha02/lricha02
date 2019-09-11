@@ -1,6 +1,6 @@
 #ContentMainGrid {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 60% 40%;
 }
 
 #ContentMainLeft {
@@ -13,6 +13,12 @@
   max-height: 650px;
   image-orientation: from-image;
 }
+
+#ContentMain {
+  padding: 5px;
+  padding-left: 15px;
+}
+
 
 body {
   background-color: #ffb6b9;
@@ -98,7 +104,7 @@ footer {
 
 #footerNav {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 60% 40%;
 }
 
 .footItem {
