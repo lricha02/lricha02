@@ -15,25 +15,28 @@
         <div class='navitem'><a href="index.html">Home</a></div>
         <div class='navitem'><a href="About.html">About Us</a></div>
         <div class='navitem'><a href="Locations.html">Locations</a></div>
-        <div class='navitem'><a href="LogIn.html">Log In</a></div>
+        <div class='navitem'><a href="LogIn.php">Log In</a></div>
       </div>
     </header>
+    <?php
+
+    ?>
     <main>
       <div id='ContentMain'>
-        <form action="LoggedIn.php">
+        <form action="LogIn.php" method="post">
           <div class="LogInBill">
             <div>
               <img class='BillWelcome' src="PicBill.png" alt="LogoBill">
             </div>
             <div>
-              <h6><i>Picollo Bill Says:</i></h6>
+              <h6><i>piccolo Bill Says:</i></h6>
               <p>Log In to see your pending orders!</p>
             </div>
           </div>
         <div class='LogInForm'>
           <label for="uname"><b>Username</b></label>
             <input type="text" placeholder="Enter Username" name="uname" required>
-            <label for="psw"><b>Password</b></label>
+          <label for="psw"><b>Password</b></label>
             <input type="password" placeholder="Enter Password" name="psw" required>
             <button type="submit" class"submitButt">Login</button>
             <label> <input type="checkbox" checked="checked" name="remember"> Remember me </label>
