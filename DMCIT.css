@@ -1,3 +1,49 @@
+  /* */
+
+    /*Whole Site*/
+
+#ContentMain {
+  padding: 5px;
+  padding-left: 15px;
+  }
+
+  body {
+    background-color: #ffb6b9;
+  }
+
+  main {
+    background-color: white;
+    border: 10px;
+    border-radius: 25px;
+  }
+
+                /*Header*/
+
+  #navbar {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+  }
+
+  .navitem {
+    font-family: 'Livvic', sans-serif;
+    font-size: 30pt;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: #ffb6b9;
+  }
+
+  #logoBill {
+    font-family: 'Livvic', sans-serif;
+    font-size: 30pt;
+    background-color: #ffb6b9;
+    padding-left: 25%;
+    padding-top: 10%;
+  }
+
+    /*Landing Page*/
+
 #ContentMainGrid {
   display: grid;
   grid-template-columns: 60% 40%;
@@ -14,50 +60,15 @@
   image-orientation: from-image;
 }
 
-#ContentMain {
-  padding: 5px;
-  padding-left: 15px;
-}
-
-
-body {
-  background-color: #ffb6b9;
-}
-
-main {
-  background-color: white;
-  border: 10px;
-  border-radius: 25px;
-}
-
 .coffee1 {
   height: 100%;
   width: 100%;
   border-radius: 0% 2% 2% 0%;
 }
 
-#navbar {
-  display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-}
 
-.navitem {
-  font-family: 'Livvic', sans-serif;
-  font-size: 30pt;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 10%;
-  padding-bottom: 10%;
-  background-color: #ffb6b9;
-}
 
-#logoBill {
-  font-family: 'Livvic', sans-serif;
-  font-size: 30pt;
-  background-color: #ffb6b9;
-  padding-left: 25%;
-  padding-top: 10%;
-}
+
 
 
 #LeftSpacing {
@@ -72,6 +83,7 @@ h3 {
   font-family: 'Livvic', sans-serif;
   text-align: center;
   background-color: #fae3d9;
+  font-weight: normal;
 }
 
 #bigDESIGN {
@@ -90,13 +102,15 @@ h3 {
   padding-right: 5%;
 }
 
-
+/*Link Colour Settings*/
 
 a { color: black; text-decoration: none;}
 a:visited { text-decoration: none; color:black; }
 a:hover { text-decoration: none; color:white; }
 a:focus { text-decoration: none; color:black; }
 a:hover, a:active { text-decoration: none; color:white; }
+
+/*Footer*/
 
 footer {
  display: fixed;
@@ -117,7 +131,10 @@ padding-bottom: 10pt;
 
 h4 {
   font-family: 'Livvic', sans-serif;
+  font-weight: normal;
 }
+
+/* CustomiseMyCoffee DesignLanding Grid */
 
 #FamGrid {
   display: grid;
@@ -136,6 +153,43 @@ h4 {
   font-family: 'Livvic';
 }
 
+/* CustomiseMyCoffee Form Grids */
+
+#CustomLand {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+#CustomLandLeft {
+
+}
+
+#CustomLandRight {
+text-align: left;
+margin-left: -20%;
+}
+
+.bannerImg {
+max-width: 80%;
+max-height: inherit;
+padding-top: 20px;
+border-radius: 25px;
+}
+
+.bannerBILL {
+  max-width: 300pt;
+  max-height: 300pt;
+  text-align: center;
+}
+
+.BillBannerText {
+  background-color: #fff8e7;
+  border-radius: 25pt;
+  margin-right: 20%;
+  text-align: center;
+}
+
+
 #DrinkGrid {
   display: grid;
   grid-template-columns: 25% 25% 25%;
@@ -153,12 +207,6 @@ h4 {
   font-family: 'Livvic';
 }
 
-h2 {
-  font-family: 'Livvic', sans-serif;
-  margin-left: 30px;
-
-}
-
 /* FORM LOGIN */
 .LogInForm {
   font-family: 'Livvic';
@@ -169,6 +217,7 @@ h2 {
   grid-template-columns: 50% 50%;
 }
 
+/* Misc Headings, text */
 h6 {
   color: darkgrey;
   font-size: 20pt;
@@ -185,6 +234,12 @@ p {
   border-radius: 5px;
 
 }
+
+h2 {
+  font-family: 'Livvic', sans-serif;
+  margin-left: 30px;
+}
+/* Form CSS */
 
 .BillWelcome {
   width: 200pt;
