@@ -90,7 +90,6 @@
           <img class="bannerImg" alt="banner Image 1" src="Snapchat-1200522755.jpg">
           <img src="PicBill.png" class="bannerBILL" alt="Picolo Bill">
           <div class='BillBannerText'>
-          <h6>Picolo Bill Says:</h6>
           <h6>Always look both ways before crossing the road!</h6>
         </div>
         </div>
